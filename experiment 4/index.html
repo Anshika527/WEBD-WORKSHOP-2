@@ -1,38 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Result Calculator</title>
+<meta charset="UTF-8">
+<title>student result calculate</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div>
-        <h2>Student Result Calculator</h2>
-        <label for="subjects">Number of Subjects:</label>
-        <input type="number" id="subjects" min="1" max="10">
-        <button onclick="calculateResult()">Calculate</button>
-        
 
+<div class="container">
 
+<h2>Student Result Calculator</h2>
 
+<label>Enter Number of Subjects</label>
+<input type="number" id="subjects">
 
-        
-        
+<button onclick="calculate()">Calculate Result</button>
 
-         
-        
-        
+<div class="result">
 
-        
+<p id="total"></p>
+<p id="average"></p>
+<p id="grade"></p>
+<p id="result"></p>
 
-        
+</div>
+</div>
 
+<script src="main.jsx"></script>
 
-    </div>
-    
-
-    
-
-    
 </body>
 </html>
