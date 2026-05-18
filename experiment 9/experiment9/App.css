@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  width: 320px;
+}
+
+h2 {
+  text-align: center;
+  color: teal;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background: teal;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkcyan;
+}
+
+.error {
+  color: red;
+  font-size: 0.85em;
+  margin-top: 3px;
+}
+
+.success {
+  color: green;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
